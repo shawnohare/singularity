@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# First install pybase16-builder
+# via pip install pybase16-builder
+
+set -ex
+
+pip list | grep pybase16-builder || pip install --upgrade pybase16-builder
+
+mkdir -p tmp/base16/schemes/singularity
+cp -r base16/. tmp/base16/schemes/singularity
+cd tmp/base16
+if [[ ! -d "templates"  ]]; then
+  pybase16 update
+fi
+
+pybase16 build --scheme singularity-dark --scheme singularity-light

@@ -1,0 +1,113 @@
+scheme: "Singularity Dark"
+author: "Shawn O'Hare (http://github.com/shawnohare/singularity)"
+base00: "002b36"
+base01: "073642"
+# base02: "586e75" # Original solarized. too bright gray and ugly
+base02: "083e4c" # 10 pts (76) brighter than solarized base01
+base03: "657b83"
+base04: "839496"
+base05: "93a1a1"
+base06: "eee8d5"
+base07: "fdf6e3"
+# one
+base08: "e06c75"
+base09: "d19a66"
+# base0A: "e5d97b" # one, more yellow
+base0A: "e5c07b"
+base0B: "98c379"
+base0C: "56b6c2"
+base0D: "61afef"
+base0E: "c678dd"
+base0F: "be5046"
+
+# base00 - Default Background
+# base01 - Lighter Background (Used for status bars)
+# base02 - Selection Background
+# base03 - Comments, Invisibles, Line Highlighting
+# base04 - Dark Foreground (Used for status bars)
+# base05 - Default Foreground, Caret, Delimiters, Operators
+# base06 - Light Foreground (Not often used)
+# base07 - Light Background (Not often used)
+# base08 - Red. Variables, XML Tags, Markup Link Text, Markup Lists, Diff Deleted
+# base09 - Orange. Integers, Boolean, Constants, XML Attributes, Markup Link Url
+# base0A - Yellow. Classes, Markup Bold, Search Text Background
+# base0B - Green. Strings, Inherited Class, Markup Code, Diff Inserted
+# base0C - Cyan. Support, Regular Expressions, Escape Characters, Markup Quotes
+# base0D - Blue. Functions, Methods, Attribute IDs, Headings
+# base0E - Magenta. Keywords, Storage, Selector, Markup Italic, Diff Changed
+# base0F - Brown. Deprecated, Opening/Closing Embedded Language Tags e.g. <?php ?>
+
+# SOLARIZED HEX      16/8  TERMCOL   XTERM/HEX     L*A*B       RGB          HSB
+# --------- -------  ----  -------    -----------  ----------  -----------  -----------
+# base03    #002b36   8/4  brblack   234 #1c1c1c   15 -12 -12    0  43  54  193 100  21
+# base02    #073642   0/4  black     235 #262626   20 -12 -12    7  54  66  192  90  26
+# base01    #586e75  10/7  brgreen   240 #585858   45 -07 -07   88 110 117  194  25  46
+# base00    #657b83  11/7  bryellow  241 #626262   50 -07 -07  101 123 131  195  23  51
+# base0     #839496  12/6  brblue    244 #808080   60 -06 -03  131 148 150  186  13  59
+# base1     #93a1a1  14/4  brcyan    245 #8a8a8a   65 -05 -02  147 161 161  180   9  63
+# base2     #eee8d5   7/7  white     254 #e4e4e4   92 -00  10  238 232 213   44  11  93
+# base3     #fdf6e3  15/7  brwhite   230 #ffffd7   97  00  10  253 246 227   44  10  99
+# yellow    #b58900   3/3  yellow    136 #af8700   60  10  65  181 137   0   45 100  71
+# orange    #cb4b16   9/3  brred     166 #d75f00   50  50  55  203  75  22   18  89  80
+# red       #dc322f   1/1  red       160 #d70000   50  65  45  220  50  47    1  79  86
+# magenta   #d33682   5/5  magenta   125 #af005f   50  65 -05  211  54 130  331  74  83
+# violet    #6c71c4  13/5  brmagenta  61 #5f5faf   50  15 -45  108 113 196  237  45  77
+# blue      #268bd2   4/4  blue       33 #0087ff   55 -10 -45   38 139 210  205  82  82
+# cyan      #2aa198   6/6  cyan       37 #00afaf   60 -35 -05   42 161 152  175  74  63
+# green     #859900   2/2  green      64 #5f8700   60 -20  65  133 153   0   68 100  60
+
+# true solarized:
+# $base03:    #002b36;
+# $base02:    #073642;
+# $base01:    #586e75;
+# $base00:    #657b83;
+# $base0:     #839496;
+# $base1:     #93a1a1;
+# $base2:     #eee8d5;
+# $base3:     #fdf6e3;
+# $yellow:    #b58900;
+# $orange:    #cb4b16;
+# $red:       #dc322f;
+# $magenta:   #d33682;
+# $violet:    #6c71c4;
+# $blue:      #268bd2;
+# $cyan:      #2aa198;
+# $green:     #859900;
+
+# scheme: "Solarized Dark"
+# author: "Ethan Schoonover (http://ethanschoonover.com/solarized)"
+# base00: "002b36"
+# base01: "073642"
+# base02: "586e75"
+# base03: "657b83"
+# base04: "839496"
+# base05: "93a1a1"
+# base06: "eee8d5"
+# base07: "fdf6e3"
+# base08: "dc322f"
+# base09: "cb4b16"
+# base0A: "b58900"
+# base0B: "859900"
+# base0C: "2aa198"
+# base0D: "268bd2"
+# base0E: "6c71c4"
+# base0F: "d33682"
+
+# scheme: "OneDark"
+# author: "Lalit Magant (http://github.com/tilal6991)"
+# base00: "282c34"
+# base01: "353b45"
+# base02: "3e4451"
+# base03: "545862"
+# base04: "565c64"
+# base05: "abb2bf"
+# base06: "b6bdca"
+# base07: "c8ccd4"
+# base08: "e06c75"
+# base09: "d19a66"
+# base0A: "e5c07b"
+# base0B: "98c379"
+# base0C: "56b6c2"
+# base0D: "61afef"
+# base0E: "c678dd"
+# base0F: "be5046"
